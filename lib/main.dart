@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'What\'s App',
       theme: ThemeData.dark().copyWith(
-        backgroundColor: backgroundColor,
+        scaffoldBackgroundColor: backgroundColor,
       ),
       home: ResponsiveLayout(mobileScreenLayout:  MobileScreenLayout(), webScreenLayout:  WebScreenLayout()),
     );
